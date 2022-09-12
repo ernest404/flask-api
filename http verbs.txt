@@ -1,0 +1,42 @@
+Web server: piece of hardware or software that is designed to accept incoming web requests.
+
+When we visit a webpage we send a request (GET) to it's server.
+
+GET request:
+has a http verb, protocol and path.
+Going to a page we do a GET
+
+The respond can vary:
+1. Error if path is not found
+2. or A web page or resource.
+
+GET: Retrieve data   GET/item/1
+POST: Send data      POST/item
+PUT: Make sure something is there  PUT/item : if not there it will create it, if there it will update it if there is some changes or do nothing.
+DELETE: Remove something    DELETE/item/1
+
+HTTP protocol:
+We have Client-Server.
+Everytime we interect with a link we send a request for a specific resource to the server and the server responds with a representation of that resource in required format.
+A URL has protocol, host, resource.
+
+State:  designed to remember preceding events or user interactions; the remembered information is called the state of the system.
+
+
+REST principles
+REST is an acronym for REpresentational State Transfer.
+It is an architectural style for how a web server responds to your requests. 
+Like other architectural styles, REST has its guiding principles and constraints. These principles must be satisfied if a service interface needs to be referred to as RESTful.
+
+The 6 guiding principles:
+1. Uniform interface: between components so that information is transferred in a standard form. 
+2. Client-Server:An architecture made up of clients, servers, and resources, with requests managed through HTTP.
+3. Stateless:  each request is separate and unconnected.A GET request can happen if when there was no a POST request of the item.
+4. Cacheable:  HTTP response that can be cached, that is stored to be retrieved and used later
+5. Layered System:organizes each type of server (those responsible for security, load-balancing, etc.) involved the retrieval of requested information into hierarchies, invisible to the client.
+6. Code on demand: (optional): the ability to send executable code from the server to the client when requested, extending client functionality.
+
+The abstraction of information in REST is a resource.a REST resource can be a document or image, a temporal service, a collection of other resources, or a non-virtual object.
+
+
+REST API: 
